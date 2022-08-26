@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+  margin-top: 0px;
+  vertical-align: left;
+  width: 49%;
+	display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+p{
+  width: 100%;
+  background-color: #000000;
+  color: #D1D1D0;
+  text-align: center;
+  font-family: 'Six Caps';
+	letter-spacing: 4px;
+  font-size:4vw;
+  padding-left: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		;
+	}
+
+
+@media screen and (max-width: 800px) { 
+	img {
+  margin-top: 10px;
+  width: 100%;
+	display: flex;
+}}

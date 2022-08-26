@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 800px) {
+/* LAYOUT MULTICOLONNA */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 110px;
+  background-color: black
+}
+
+.column {
+  flex: 0%;
+  max-width: 25%;
+  padding: 0 6px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;}
+	
+	p{text-align: center;
+	  margin:0px;
+      background-color: #000000;
+      color: #CDCDCD;
+      font-family: 'SIx caps';
+      font-weight: bold;
+      font-size:3vw;
+      padding-left: 0px;
+	  padding-top: 0px;
+	  padding-bottom: 0px;
+	  letter-spacing: 15px;	}
+	
+}
+
+@media screen and (max-width: 800px) {
+/* LAYOUT MULTICOLONNA */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px ;
+  background-color: black
+}
+
+.column {
+  flex: 0%;
+  max-width: 25%;
+  padding: 0 0px;
+}
+
+.column img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;}
+	
+	p{text-align: center;
+	  margin:0px;
+      background-color: #000000;
+      color: #CDCDCD;
+      font-family: 'Six caps';
+      font-weight: bold;
+      font-size:6vw;
+      padding-left: 0px;
+	  padding-top: 20px;
+	  padding-bottom: 0px;
+	  letter-spacing: 15px;}
+}
+
+	
+

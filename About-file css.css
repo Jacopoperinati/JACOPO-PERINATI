@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media only screen and (min-width: 800px) {   
+	
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding-left: 40px;
+}
+
+
+p{height: 100%;
+ text-align:left;
+  width: 100%;
+  background-color: #000000;
+	 color: #DFDFDF;
+font-family: 'Jost', sans-serif;
+	 margin-top: 10vw;
+	font-weight: 400;
+	 letter-spacing: 0px;
+font-size: 1.3vw}
+}
+
+
+@media screen and (max-width: 800px) {
+	img {
+  width: 100%;
+  border: none;
+  margin: 15PX 0 0 0
+}
+	p{padding-left: 2vw;
+  background-color:#000000;
+	font-size: 1em;
+		text-align: center;
+		color: #8E8E8E;
+font-family: 'Jost', sans-serif;}
+	}
+
+	
+
+
